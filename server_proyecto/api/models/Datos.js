@@ -18,11 +18,18 @@ module.exports = {
     fechaUso:{
       type:"string"
     },
-    Peso:{
+    peso:{
       type:"number"
     },
-    Altura:{
+    altura:{
       type:"number"
+    },
+    descripcion:{
+      type:"string"
+    },
+    resultado:{
+      type:"number",
+      columnType: "float"
     },
   },
 
